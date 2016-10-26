@@ -1,0 +1,15 @@
+[user]
+	name = igormontenegro
+	email = igor.c.montenegro.c@gmail.com
+[credential]
+[push]
+	default = matching
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
+[credencial]
+	helper = wincred
+	helper = igormontenegro
+[credential]
+	helper = wincred
